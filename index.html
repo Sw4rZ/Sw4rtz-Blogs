@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sw4rtz-Blogs</title>
+    <style>
+        :root {
+            --theme-color: #6b4dff;
+            --background: #f9f9f9;
+            --text-color: #333;
+            --light-gray: #eee;
+            --dark-gray: #777;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: var(--background);
+            color: var(--text-color);
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        
+        h1 {
+            color: var(--theme-color);
+            margin-bottom: 0.5rem;
+        }
+        
+        .subtitle {
+            color: var(--dark-gray);
+            font-weight: normal;
+        }
+        
+        nav {
+            margin: 1rem auto;
+            max-width: 90%;
+        }
+        
+        nav a {
+            margin: 0 0.5rem;
+            text-decoration: none;
+            color: var(--theme-color);
+        }
+        
+        .ctf-icons {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+        
+        .ctf-icon {
+            width: 80px;
+            height: 80px;
+            transition: transform 0.3s;
+        }
+        
+        .ctf-icon:hover {
+            transform: scale(1.1);
+        }
+        
+        footer {
+            text-align: center;
+            margin-top: 3rem;
+            color: var(--dark-gray);
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sw4rtz-Blogs</h1>
+        <p class="subtitle">Security Research | CTF Writeups | Bug Bounty</p>
+    </header>
+    
+    <nav>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/writeups">CTF Writeups</a>
+        <a href="/contact">Contact</a>
+    </nav>
+    
+    <div class="ctf-icons">
+        <a href="https://ctf.exploitx.pl" target="_blank">
+            <img src="https://ctf.exploitx.pl/static/images/logo.png" alt="Exploitx-CTF" class="ctf-icon">
+        </a>
+        <a href="https://umasscybersec.org/" target="_blank">
+            <img src="https://umasscybersec.org/images/logo.png" alt="UMASS-CTF" class="ctf-icon">
+        </a>
+        <a href="https://picoctf.org/" target="_blank">
+            <img src="https://picoctf.org/img/logos/picoctf-logo-vertical-white.png" alt="PicoCTF" class="ctf-icon">
+        </a>
+    </div>
+    
+    <main>
+        <h2>Latest Posts</h2>
+        <p>Welcome to my security blog! Here you'll find:</p>
+        <ul>
+            <li>CTF competition writeups</li>
+            <li>Vulnerability research</li>
+            <li>Security tool tutorials</li>
+        </ul>
+    </main>
+    
+    <footer>
+        <p>© 2023 Sw4rtz-Blogs | Built with Jekyll</p>
+    </footer>
+</body>
+</html>
